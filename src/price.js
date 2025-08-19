@@ -4,9 +4,7 @@ const Price = () => {
   const [buttonOne, setButtonOne] = useState(false)
   const [buttonTwo, setButtonTwo] = useState(false)
   const [buttonThree, setButtonThree] = useState(false)
-  const [toggle,setToggle] = useState(false)
-
-console.log(toggle)
+  const [toggle,setToggle] = useState(false);
 
   return (
     <div className="price-div">
